@@ -32,6 +32,7 @@ def generate_launch_description():
         Node(
             package='ld08_driver',
             executable='ld08_driver',
+            namespace='tb3_0',
             name='ld08_driver',
             output='screen'),
     ])
